@@ -1,0 +1,16 @@
+C:\console\TopSortVisualizer\bin\Debug\net6.0-windows\TopSortVisualizer.exe
+C:\console\TopSortVisualizer\bin\Debug\net6.0-windows\TopSortVisualizer.deps.json
+C:\console\TopSortVisualizer\bin\Debug\net6.0-windows\TopSortVisualizer.runtimeconfig.json
+C:\console\TopSortVisualizer\bin\Debug\net6.0-windows\TopSortVisualizer.dll
+C:\console\TopSortVisualizer\bin\Debug\net6.0-windows\TopSortVisualizer.pdb
+C:\console\TopSortVisualizer\obj\Debug\net6.0-windows\TopSortVisualizer.Form1.resources
+C:\console\TopSortVisualizer\obj\Debug\net6.0-windows\TopSortVisualizer.csproj.GenerateResource.cache
+C:\console\TopSortVisualizer\obj\Debug\net6.0-windows\TopSortVisualizer.GeneratedMSBuildEditorConfig.editorconfig
+C:\console\TopSortVisualizer\obj\Debug\net6.0-windows\TopSortVisualizer.AssemblyInfoInputs.cache
+C:\console\TopSortVisualizer\obj\Debug\net6.0-windows\TopSortVisualizer.AssemblyInfo.cs
+C:\console\TopSortVisualizer\obj\Debug\net6.0-windows\TopSortVisualizer.csproj.CoreCompileInputs.cache
+C:\console\TopSortVisualizer\obj\Debug\net6.0-windows\TopSortVisualizer.dll
+C:\console\TopSortVisualizer\obj\Debug\net6.0-windows\refint\TopSortVisualizer.dll
+C:\console\TopSortVisualizer\obj\Debug\net6.0-windows\TopSortVisualizer.pdb
+C:\console\TopSortVisualizer\obj\Debug\net6.0-windows\TopSortVisualizer.genruntimeconfig.cache
+C:\console\TopSortVisualizer\obj\Debug\net6.0-windows\ref\TopSortVisualizer.dll
