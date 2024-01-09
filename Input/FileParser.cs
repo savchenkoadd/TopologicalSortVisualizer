@@ -8,8 +8,9 @@
 
 			string[] lines = fileContent.Split('\n', StringSplitOptions.RemoveEmptyEntries);
 
-			foreach (var line in lines)
+			for (int j = 0; j < lines.Length; j++)
 			{
+				string line = lines[j];
 				string[] tokens = line.Split(' ', StringSplitOptions.RemoveEmptyEntries);
 
 				if (tokens.Length < 2)

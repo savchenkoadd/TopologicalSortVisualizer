@@ -28,11 +28,13 @@
 
 			while (queue.Count > 0)
 			{
-				int currentVertex = queue.Dequeue();
+				int currentVertex = queue.Dequeue();	
 				result.Add(currentVertex);
 
-				foreach (int neighbour in _adjacencyList[currentVertex])
+				List<int> neighbours = _adjacencyList[currentVertex];
+				for (int i = 0; i < neighbours.Count; i++)
 				{
+					int neighbour = neighbours[i];
 					inDegrees[neighbour]--;
 
 					if (inDegrees[neighbour] == 0)

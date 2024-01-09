@@ -52,6 +52,7 @@
 			// InitializeGraphButton
 			// 
 			InitializeGraphButton.Anchor = AnchorStyles.Right;
+			InitializeGraphButton.Cursor = Cursors.Hand;
 			InitializeGraphButton.Location = new Point(592, 59);
 			InitializeGraphButton.Name = "InitializeGraphButton";
 			InitializeGraphButton.Size = new Size(189, 85);
@@ -63,6 +64,7 @@
 			// StartAnimationButton
 			// 
 			StartAnimationButton.Anchor = AnchorStyles.Right;
+			StartAnimationButton.Cursor = Cursors.Hand;
 			StartAnimationButton.Enabled = false;
 			StartAnimationButton.Location = new Point(592, 187);
 			StartAnimationButton.Name = "StartAnimationButton";
@@ -95,6 +97,7 @@
 			// AnimationSpeedBar
 			// 
 			AnimationSpeedBar.Anchor = AnchorStyles.Right;
+			AnimationSpeedBar.Cursor = Cursors.VSplit;
 			AnimationSpeedBar.LargeChange = 1000;
 			AnimationSpeedBar.Location = new Point(591, 309);
 			AnimationSpeedBar.Maximum = 7000;
@@ -120,7 +123,7 @@
 			// 
 			AutoScaleDimensions = new SizeF(8F, 20F);
 			AutoScaleMode = AutoScaleMode.Font;
-			AutoSize = true;
+			AutoScroll = true;
 			ClientSize = new Size(800, 450);
 			Controls.Add(label1);
 			Controls.Add(AnimationSpeedBar);
@@ -129,7 +132,9 @@
 			Controls.Add(StartAnimationButton);
 			Controls.Add(InitializeGraphButton);
 			Controls.Add(GraphPanel);
+			MinimumSize = new Size(818, 497);
 			Name = "Form1";
+			StartPosition = FormStartPosition.CenterScreen;
 			Text = "Topological Sort Visualizer";
 			((System.ComponentModel.ISupportInitialize)AnimationSpeedBar).EndInit();
 			ResumeLayout(false);

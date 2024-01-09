@@ -21,16 +21,20 @@ namespace TopSortVisualizer
 
 		public void DrawGraph(Dictionary<int, List<int>> adjacencyList, Dictionary<int, List<float>> coordinates)
 		{
-			foreach (var vertexId in adjacencyList.Keys)
+			var vertexIds = new List<int>(adjacencyList.Keys);
+			for (int i = 0; i < vertexIds.Count; i++)
 			{
+				var vertexId = vertexIds[i];
+
 				if (coordinates.TryGetValue(vertexId, out var vertexCoordinates))
 				{
 					DrawVertex(vertexId, vertexCoordinates);
 
 					if (adjacencyList.TryGetValue(vertexId, out var neighbors))
 					{
-						foreach (var neighbor in neighbors)
+						for (int j = 0; j < neighbors.Count; j++)
 						{
+							var neighbor = neighbors[j];
 							DrawEdge(coordinates, vertexCoordinates, neighbor);
 						}
 					}
